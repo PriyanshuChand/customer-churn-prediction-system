@@ -1,10 +1,28 @@
 # 📊 Customer Churn Prediction System Using Predictive Analytics and Machine Learning
 
-A machine learning web application developed using **Python**, **Scikit-Learn**, and **Streamlit** to predict customer churn based on customer demographics, subscription details, and service usage.
+![Python](https://img.shields.io/badge/Python-3.14-blue?logo=python)
+![Streamlit](https://img.shields.io/badge/Streamlit-1.59-red?logo=streamlit)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange?logo=scikitlearn)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-This project was developed as the **Major Project** for the **Master of Computer Applications (MCA)** program at **Chandigarh University**.
+A machine learning web application that predicts customer churn using **Predictive Analytics**, **Scikit-Learn**, and **Streamlit**.
+
+Developed as the **Major Project** for the **Master of Computer Applications (MCA)** program at **Chandigarh University**.
 
 ---
+## 📑 Table of Contents
+
+- Project Objectives
+- Features
+- Technologies Used
+- Machine Learning Models
+- Project Structure
+- Dataset
+- Installation
+- Application Screenshots
+- Future Improvements
+- Author
+- License
 
 ## 📌 Project Objectives
 
@@ -29,29 +47,27 @@ This project was developed as the **Major Project** for the **Master of Computer
 
 ## 🛠️ Technologies Used
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-Learn
-- Streamlit
-- Joblib
-- OpenPyXL
+| Category | Technologies |
+|----------|--------------|
+| Programming Language | Python |
+| Data Processing | Pandas, NumPy |
+| Visualization | Matplotlib, Seaborn |
+| Machine Learning | Scikit-Learn |
+| Web Framework | Streamlit |
+| Model Serialization | Joblib |
+| Excel Support | OpenPyXL |
 
 ---
 
 ## 🤖 Machine Learning Models
 
-The following classification algorithms were trained and evaluated:
+| Model | Accuracy |
+|-------|----------|
+| Logistic Regression | **80.34%** ✅ |
+| Random Forest | 79.49% |
+| Decision Tree | 78.50% |
 
-- Logistic Regression ✅ (Selected Model)
-- Decision Tree
-- Random Forest
-
-**Best Model:** Logistic Regression
-
-**Accuracy:** 80.34%
+**Selected Model:** Logistic Regression
 
 ---
 
@@ -127,13 +143,14 @@ python -m streamlit run streamlit_app.py
 
 ---
 
-## 📈 Future Improvements
+## 🚀 Future Improvements
 
-- Deploy the application online using Streamlit Community Cloud.
-- Improve prediction accuracy using advanced machine learning models.
-- Add deep learning-based prediction.
+- Deploy the application using Streamlit Community Cloud.
+- Add XGBoost and LightGBM models.
 - Integrate a real-time customer database.
-- Add user authentication and login.
+- Add user authentication.
+- Improve prediction accuracy using hyperparameter tuning.
+- Support batch predictions through CSV upload.Add user authentication and login.
 
 ---
 
@@ -145,7 +162,7 @@ Master of Computer Applications (MCA)
 
 Chandigarh University
 
-2026
+📧 GitHub: https://github.com/PriyanshuChand
 
 ---
 
